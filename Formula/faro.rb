@@ -1,25 +1,25 @@
 class Faro < Formula
   desc "Terminal client for Signal, built for people who live in tmux"
   homepage "https://getfaro.dev"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/harababurel/faro/releases/download/v0.1.1/faro-aarch64-apple-darwin.tar.xz"
-      sha256 "9f469d16356245a2eb78e71ac76b2e73695cff564eb40a4d39a9a105b9e46981"
+      url "https://github.com/harababurel/faro/releases/download/v0.1.2/faro-aarch64-apple-darwin.tar.xz"
+      sha256 "44b1771876dd2faf15a7b41a0ec1274361b9c5eefc8b49c62c65b9412bd4c820"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/harababurel/faro/releases/download/v0.1.1/faro-x86_64-apple-darwin.tar.xz"
-      sha256 "51e74d6ce54d14c9f4b68cfce6b50faba76deb87a85860659c48fe210929db38"
+      url "https://github.com/harababurel/faro/releases/download/v0.1.2/faro-x86_64-apple-darwin.tar.xz"
+      sha256 "92488a16982dd2f91f18b0da8ffcda368f372b2e7ba9c9b223dc2f5b2220972b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/harababurel/faro/releases/download/v0.1.1/faro-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3d6e62a078ce0a53ef74f2f5f4d2766a96a1de6827577468a0b1164aac4c538f"
+      url "https://github.com/harababurel/faro/releases/download/v0.1.2/faro-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "68200df59f9bcb7d67c046ac6a6d6a4063c879edc148b48f7ef9d9b1afa70ab6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/harababurel/faro/releases/download/v0.1.1/faro-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5db21c075d33882173e61b10f15e8c87cc36640b2e179c3ae0fc0090b8e18e2b"
+      url "https://github.com/harababurel/faro/releases/download/v0.1.2/faro-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9661d9f92b7c43f3633b3787483ba328074450cfaae0cfcd9dba32c2e81dd555"
     end
   end
   license "AGPL-3.0-only"
